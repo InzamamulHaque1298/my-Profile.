@@ -1,0 +1,116 @@
+body{
+background-image: url("2.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+.container{
+    display: flex;
+   
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+   
+
+}
+.icon{
+ 
+
+  
+}
+ #icon{
+    border-radius: 15px;
+    height:35px;
+    width:35px;
+}
+.name{
+    color: aquamarine;
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+
+}
+#contact ul {
+    display: flex;
+   align-items: center;
+    list-style: none;
+}
+#contact ul li{
+    margin-left: 20px;
+}
+#wapp{
+    color: rgb(57, 223, 57);
+     font-size: 30px;
+}
+#ytube{
+    color: rgb(235, 58, 58);
+    font-size: 30px;
+}
+#twitter{
+    color: rgb(8, 134, 156);
+    font-size: 30px;
+}
+#myqualification{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+}
+#cont2{
+    font-size: 25px;
+    color: rgb(196, 81, 225);
+    list-style: none;
+    margin-top: 20px;
+  
+}
+#change1{
+    text-decoration: none;
+    color: rgb(22, 12, 12);
+}
+#change1:hover{
+    color: rgb(231, 39, 180);
+    transition-duration: 2s;
+    
+}
+#hobby{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#list{
+    display: flex;
+    justify-content: space-evenly;  
+    list-style: none; 
+}
+ #pic{
+    width: 200px;
+    border-radius: 10px;
+    height: 200px;
+
+}
+#Best{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 30px;
+}
+#songs{
+    display: flex;
+    justify-content: space-evenly;
+    color: aqua;
+    list-style: none;
+}
